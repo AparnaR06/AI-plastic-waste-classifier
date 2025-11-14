@@ -451,7 +451,7 @@ def main_app():
         st.rerun()
 
 
-# ---------------- RUN ----------------
+# ---------------- RUN ---------------
 if not st.session_state.logged_in:
     login_page()
 else:
